@@ -129,7 +129,7 @@ jobs:
     strategy:
       matrix:
         pdk: ["sky130A", "sky130B"]
-    needs: [download_deps]
+needs: [download_caravel, download_deps]
     steps:
       - uses: actions/checkout@v4
 
