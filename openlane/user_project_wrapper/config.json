@@ -18,3 +18,4 @@
     "QUIT_ON_LINTER_ERRORS": false,
     "QUIT_ON_TIMING_VIOLATIONS": true,
     "QUIT_ON_MAGIC_DRC": true
+}
